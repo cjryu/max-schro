@@ -2,8 +2,8 @@
 
 If this MATLAB script is useful to you, please consider citing the following
 reference in your work: C. J. Ryu, A. Y. Liu, W. E. I. Sha, and W. C. Chew,
-"[Finite-difference time-domain simulation of the Maxwell-Schrodinger system]
-(https://ieeexplore.ieee.org/abstract/document/7558203)," *IEEE J. Multiscale
+["Finite-difference time-domain simulation of the Maxwell-Schrodinger system
+,"](https://ieeexplore.ieee.org/abstract/document/7558203) *IEEE J. Multiscale
 Multiphys. Computat. Techn.*, vol. 1, pp. 40–47, 2016.
 
 This MATLAB script was written in 2014 by C. J. Ryu. It has the following novel
