@@ -4,7 +4,7 @@
 
 psi = zeros(Nx_qd,Ny_qd,Nz_qd);  psim0 = psi;  psim1 = psi;
 omega = 2*pi*c0/lamb;   omega_g = 1.5*omega;   gndE = hbar*omega_g;
-parfor i = 2:Nx_qd-1
+for i = 2:Nx_qd-1
     for j = 2:Ny_qd-1
         for k = 2:Nz_qd-1
             psim0(i,j,k) = (me*omega/(pi*hbar))^(1/4)*exp(-me*omega*(dx*(i-ceil(Nx_qd/2)))^2/(2*hbar))*hermite(0,sqrt(me*omega/hbar)*(dx*(i-ceil(Nx_qd/2))))...
