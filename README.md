@@ -27,10 +27,10 @@ MATLAB over the years. The following are fixes that you can apply.
 
 - [insertHOGM_MS.m](insertHOGM_MS.m) uses `hermite` which is now called `hermiteH`
 which requires the Symbolic Math Toolbox. A great alternative is [this MathWorks
-File Exchange submission](https://www.mathworks.com/matlabcentral/fileexchange/
-27746-hermite-polynomials).
+File Exchange submission](https://www.mathworks.com/matlabcentral/fileexchange/27746-hermite-polynomials).
 - [updateMaxv2.m](updateMaxv2.m) uses `heaviside` which also requires the Symbolic
 Math Toolbox. You can simply implement this function using an if statement.
+
         function out = heaviside(n)
         
         if n < 0
